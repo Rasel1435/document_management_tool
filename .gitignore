@@ -1,3 +1,6 @@
 document_management_tool/document_management_tool/__pycache__
 document_management_tool/documents/__pycache__
 document_management_tool/documents/migrations
+documents/migrations
+documents/__pycache__
+document_management_tool/__pycache__
