@@ -1,4 +1,3 @@
-# document_management_tool
 # Interactive Cares Document Management API
 
 Welcome to the Interactive Cares Document Management API! This API system is designed to provide a robust document management solution with features such as document creation, updating, deletion, sharing, and access control.
@@ -20,24 +19,20 @@ Welcome to the Interactive Cares Document Management API! This API system is des
 
 # Setting Up the Application
 
-- Clone the repository to your local machine
-    - git clone <repository-url>
+## Clone the repository to your local machine
+    git clone <repository-url>
 
-# Navigate to the project directory
+## Navigate to the project directory
+    cd interactive-cares-document-api
 
-    - cd interactive-cares-document-api
+## Install dependencies
+    pip install -r requirements.txt
 
-# Install dependencies
+## Run the migrations
+    python manage.py migrate
 
-    - pip install -r requirements.txt
-
-# Run the migrations
-
-    - python manage.py migrate
-
-# Run the development server
-
-    - python manage.py runserver
+## Run the development server
+    python manage.py runserver
 
 # API Endpoints
 
